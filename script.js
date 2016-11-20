@@ -8,9 +8,9 @@ footer.style.visibility = 'hidden'
 window.onscroll = function(e) {
 	if(window.pageYOffset >= playerRect.top && window.pageYOffset > 0) {
 		player.style.position = 'fixed'
-		player.style.top = '50px'
+		player.style.top = '150px'
     player.style.left = '0px'
-    player.style.left = '0px'
+    player.style.left = '300px'
 		player.style.zIndex = 999
 
 		sideWatch.style.position = 'absolute'
